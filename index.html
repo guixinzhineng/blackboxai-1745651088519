@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>即梦AI - 即刻造梦</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Noto Sans SC for Chinese text -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-transparent">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="//lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/growth/jimeng/landing_page/static/image/jimeng-logo-large.16d119dc.png" alt="即梦AI" class="h-8">
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/ai-tool/image/generate" class="text-white hover:text-gray-300">文生图</a>
+                    <a href="/ai-tool/home" class="text-white hover:text-gray-300">视频生成</a>
+                    <a href="/ai-tool/home" class="text-white hover:text-gray-300">智能画布</a>
+                    <a href="/ai-tool/explore" class="text-white hover:text-gray-300">探索</a>
+                    <a href="/visionary" class="text-white hover:text-gray-300">未来影像计划</a>
+                    <a href="/ai-tool/login" class="px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">登录</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center" style="background-image: url('https://lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/growth/jimeng/landing_page/static/image/hero-bg.jpg'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative z-10 text-center">
+            <h1 class="text-6xl font-bold mb-8">即刻造梦</h1>
+            <div class="flex justify-center items-center space-x-4">
+                <input type="text" placeholder="输入创作灵感" class="w-96 px-6 py-3 rounded-full bg-white bg-opacity-20 text-white placeholder-white border border-white border-opacity-30 focus:outline-none focus:border-opacity-50">
+                <button class="px-6 py-3 bg-blue-500 rounded-full hover:bg-blue-600">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <a href="/ai-tool/home" class="inline-block mt-8 px-8 py-3 bg-blue-500 rounded-full hover:bg-blue-600">前往即梦</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gradient-to-b from-black to-blue-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">灵感即刻成片</h2>
+            <p class="text-xl text-center mb-16 text-gray-300">AI视频生成，输入简单的文案或图片，即可快速生成优质视频片段</p>
+            
+            <!-- Feature Cards -->
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Feature 1 -->
+                <div class="text-center">
+                    <div class="text-6xl font-bold mb-4">01</div>
+                    <h3 class="text-2xl font-bold mb-4">流畅运镜，生动自然</h3>
+                    <p class="text-gray-300">视频动效效果连贯性强、流畅自然，可轻松操控运镜，调节速度变化，即梦AI为视频智能创作增添无限可能</p>
+                    <a href="/ai-tool/login" class="inline-block mt-6 px-8 py-3 border border-white rounded-full hover:bg-white hover:text-black transition-colors">立即创作</a>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="text-center">
+                    <div class="text-6xl font-bold mb-4">02</div>
+                    <h3 class="text-2xl font-bold mb-4">从首帧到尾帧，精准掌控</h3>
+                    <p class="text-gray-300">创新的首帧图片和尾帧图片输入方式，增强视频生成的可控性，轻松打造高品质素材，提升你的视频内容创作效率</p>
+                    <a href="/ai-tool/login" class="inline-block mt-6 px-8 py-3 border border-white rounded-full hover:bg-white hover:text-black transition-colors">立即创作</a>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="text-center">
+                    <div class="text-6xl font-bold mb-4">03</div>
+                    <h3 class="text-2xl font-bold mb-4">中文创作，得心应手</h3>
+                    <p class="text-gray-300">即梦AI支持根据中文提示词进行创作，拥有更好的语义理解能力，准确把握你的需求，将抽象的思路转化为视觉作品</p>
+                    <a href="/ai-tool/login" class="inline-block mt-6 px-8 py-3 border border-white rounded-full hover:bg-white hover:text-black transition-colors">立即创作</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Drawing Section -->
+    <section class="py-20 bg-black">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-4">AI绘画 梦境成真</h2>
+            <p class="text-xl text-center mb-16 text-gray-300">即梦AI绘画，仅需简单提示词，即可生成精彩的图片。你还可以对现有图片进行创意改造，自定义保留人物或主体的形象特征，实现背景替换、风格联想、画风保持、姿势保持等操作，满足各种场景的创作需求</p>
+            
+            <!-- Image Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Image items -->
+                <div class="relative group">
+                    <img src="//lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/growth/jimeng/landing_page/static/image/1.727df331.jpg" alt="AI生成图片" class="w-full rounded-lg">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p class="text-sm">3D游戏人物风格，戴夸张耳饰的民族风少女</p>
+                        <a href="/ai-tool/login" class="inline-block mt-2 text-blue-500">即梦成片</a>
+                    </div>
+                </div>
+                <!-- Repeat for other images -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <img src="//lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/growth/jimeng/landing_page/static/image/jimeng-logo-large.16d119dc.png" alt="即梦AI" class="h-8 mb-8 md:mb-0">
+                <div class="flex space-x-8">
+                    <a href="#" class="text-gray-400 hover:text-white">营业执照</a>
+                    <a href="#" class="text-gray-400 hover:text-white">用户协议</a>
+                    <a href="#" class="text-gray-400 hover:text-white">隐私政策</a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-gray-400">
+                <p>深圳市脸萌科技有限公司深圳市南山区招商街道水湾社区太子路51号太子广场1104</p>
+                <p class="mt-2">
+                    <a href="https://beian.miit.gov.cn/" class="hover:text-white">粤ICP备13065114号</a>
+                    <span class="mx-2">|</span>
+                    <a href="#" class="hover:text-white">粤B2-20190879</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
